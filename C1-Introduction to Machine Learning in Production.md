@@ -1,7 +1,6 @@
-MLOps Specialization
-Course1
-Week2
-**Introduction to Week's Focus: Building Production-Ready ML Models**
+# MLOps Specialization Course1 - Week2
+
+## **Introduction to Week's Focus: Building Production-Ready ML Models**
 
 1. **Welcome and Overview**
    - Introduction to best practices for building machine learning models.
@@ -45,7 +44,7 @@ Week2
 
 Let's dive into the challenges and strategies for building production-ready machine learning models!
 
-**Key Challenges in Model Development: An Overview**
+## **Key Challenges in Model Development: An Overview**
 
 1. **Introduction to Key Challenges**
    - Overview of challenges in training machine learning models.
@@ -93,7 +92,8 @@ Let's dive into the challenges and strategies for building production-ready mach
     - Preparation for a deeper understanding of the nuanced aspects of model development.
 
 In the next video, we'll delve into the reasons why achieving a low average test set error might not be sufficient for the success of a machine learning project.
-**Challenges Beyond Test Set Accuracy in ML Model Development**
+
+## **Challenges Beyond Test Set Accuracy in ML Model Development**
 
 Andrew Ng emphasizes that achieving high accuracy on the holdout test set is not always sufficient for a successful machine learning project. Here are additional challenges that might need attention in production ML:
 
@@ -143,7 +143,7 @@ Andrew Ng emphasizes that achieving high accuracy on the holdout test set is not
     - The goal is to equip practitioners with tools to address challenges that extend beyond average test set accuracy.
 
 Andrew Ng emphasizes the importance of understanding and addressing these challenges to ensure that machine learning systems are not only accurate on test sets but also effective and reliable in real-world applications.
-**Establishing Baselines in Machine Learning Projects**
+## **Establishing Baselines in Machine Learning Projects**
 
 Andrew Ng emphasizes the importance of establishing a baseline when starting a machine learning project and provides insights into best practices for doing so:
 
@@ -193,7 +193,8 @@ Andrew Ng emphasizes the importance of establishing a baseline when starting a m
     - The upcoming video will delve into these tips to provide further guidance.
 
 Andrew Ng's insights emphasize the foundational role of establishing a baseline in guiding the trajectory of a machine learning project and making informed decisions about where to focus improvement efforts.
-**Initiating a Machine Learning Project: Key Tips**
+
+## **Initiating a Machine Learning Project: Key Tips**
 
 Andrew Ng shares valuable insights for embarking on a machine learning project, focusing on practical strategies and efficient workflows:
 
@@ -230,7 +231,7 @@ Andrew Ng shares valuable insights for embarking on a machine learning project, 
 
 These tips aim to provide a practical and efficient approach to initiating a machine learning project, emphasizing the importance of good data, strategic consideration of deployment constraints, and the value of quick sanity checks for bug identification.
 
-Lecture Notes: Error Analysis in Machine Learning Development
+## **Lecture Notes: Error Analysis in Machine Learning Development**
 
 1. **Introduction to the Iterative Nature of Machine Learning**
    - Acknowledgment that initial training of a learning algorithm may not yield optimal results.
@@ -282,7 +283,7 @@ Lecture Notes: Error Analysis in Machine Learning Development
     - Encouragement to engage in error analysis as a crucial step in refining learning algorithms.
     - Anticipation for a deeper dive into an example in the next video.
 
-Lecture Notes: Prioritizing and Improving Algorithm Performance
+## **Lecture Notes: Prioritizing and Improving Algorithm Performance**
 
 1. **Recap on Brainstorming and Tagging**
    - Previous video emphasized brainstorming and tagging data with different attributes.
@@ -333,7 +334,7 @@ Lecture Notes: Prioritizing and Improving Algorithm Performance
     - Introduction to the upcoming video addressing common challenges related to skewed datasets.
     - Anticipation for learning techniques to manage skewed datasets in the next session.
 
-Lecture Notes: Handling Skewed Datasets and Performance Auditing
+## **Lecture Notes: Handling Skewed Datasets and Performance Auditing**
 
 1. **Introduction to Skewed Datasets**
    - Skewed datasets: Positive to negative examples ratio far from 50-50.
@@ -401,7 +402,7 @@ Lecture Notes: Handling Skewed Datasets and Performance Auditing
     - Introducing the concept of Performance Auditing as the next key topic.
     - Setting the stage for exploring the aspects of Performance Auditing in the following content.
 
-Performance Auditing Framework and Speech Recognition Example
+## **Performance Auditing Framework and Speech Recognition Example**
 
 1. **Introduction to Performance Auditing**
    - Importance of a final performance audit before deploying a learning algorithm to production.
@@ -461,7 +462,7 @@ Performance Auditing Framework and Speech Recognition Example
     - Conclusion of the section on Performance Auditing.
 
 
-**Lecture Title: Shifting to a Data-Centric Approach in AI Development**
+## **Lecture Title: Shifting to a Data-Centric Approach in AI Development**
 
 In this lecture, we delve into the concept of data-centric AI development as opposed to the more traditional model-centric approach. The primary focus here is on enhancing the performance of a learning algorithm by adopting a data-centric perspective.
 
@@ -487,10 +488,8 @@ In this lecture, we delve into the concept of data-centric AI development as opp
 
 In conclusion, adopting a data-centric view in AI development involves recognizing the paramount importance of data quality. This shift encourages iterative improvements to the dataset itself, with data augmentation standing out as a significant tool. The next video will delve into the practical aspects of data augmentation.
 
-**Lecture Title: Enhancing Learning Algorithm Performance through Data Augmentation**
 
-**Speaker:** Andrew Ng
-
+## **Lecture Title: Enhancing Learning Algorithm Performance through Data Augmentation**
 **Conceptual Framework for Data Augmentation:**
 
 - **Introduction to Noise in Speech Recognition:**
@@ -551,7 +550,7 @@ In conclusion, adopting a data-centric view in AI development involves recognizi
   - Constant error analysis guides the strategic collection of additional data for optimal performance enhancement.
 
 
-Title: Data Augmentation Best Practices in MLOps - Lecture Notes by Andrew Ng
+## **Title: Data Augmentation Best Practices in MLOps**
 
 **Introduction:**
 - Data augmentation is a powerful tool, especially for unstructured data (images, audio, text).
@@ -598,9 +597,7 @@ Title: Data Augmentation Best Practices in MLOps - Lecture Notes by Andrew Ng
 These notes are designed to provide a concise and clear overview of the lecture by Andrew Ng on Data Augmentation Best Practices in MLOps.
 
 
- **Lecture Title:** Understanding the Impact of Data Augmentation on Learning Algorithm's Performance
-
-**Speaker:** Andrew Ng
+## **Title:** Understanding the Impact of Data Augmentation on Learning Algorithm's Performance
 
 In many machine learning problems, the training, dev, and test sets initially have reasonably similar distributions. However, when incorporating data augmentation—such as adding data with cafe noise—the training set's distribution may diverge from the dev set and test set. The key question is whether this affects the learning algorithm's performance, particularly in unstructured data problems. Let's delve deeper into this issue.
 
@@ -622,7 +619,7 @@ In many machine learning problems, the training, dev, and test sets initially ha
 This lecture emphasizes the importance of understanding the interplay between data augmentation, model size, and the clarity of the mapping from input to output in optimizing the learning algorithm's performance.
 
 
-**Title: Enhancing Learning Algorithm Performance through Data Iteration**
+## **Title: Enhancing Learning Algorithm Performance through Data Iteration**
 
 **Speaker: Andrew Ng**
 
