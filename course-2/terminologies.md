@@ -80,3 +80,15 @@ Schema development can significantly contribute to enhancing scalability in mach
    - This adaptability ensures that ML pipelines remain robust and scalable in the face of evolving data patterns and shifting workload demands.
 
 In summary, schema development plays a crucial role in enhancing scalability by optimizing resource usage, streamlining data processing tasks, improving model training efficiency, and enabling adaptive data handling in machine learning pipelines.
+
+
+what is feature stores?
+Imagine you're cooking and you have a bunch of ingredients on hand. Each ingredient represents a piece of information, like how spicy a dish is or how long it takes to cook. Now, think of a feature store as a special pantry where you organize and store all these ingredients neatly. 
+
+In the world of computers and data, these "ingredients" are called features. They could be anything from a person's age to the color of a car. The feature store is like a virtual pantry that holds all these features in one place, making them easy to find and use.
+
+So, why is this pantry important? Well, imagine you're trying to cook up a new recipe, which in this case is a machine learning model. Instead of running around gathering ingredients each time you want to cook, you can just go to your feature store and pick out the features you need. This saves time and effort because you don't have to hunt for the same ingredients over and over again.
+
+Plus, the feature store keeps everything organized and consistent. You know exactly where to find each feature, and they're all stored in a standardized way. This consistency is crucial for making sure your recipes (or models) turn out the same way every time.
+
+Overall, a feature store is like your own personal pantry for data ingredients. It helps you keep everything organized, saves you time and effort, and ensures consistency in your cooking (or machine learning models).
